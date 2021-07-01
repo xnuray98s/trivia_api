@@ -91,7 +91,7 @@ GET '/categories'
 that contains two attributes 'id' and 'type' while 'success' represent if the request was
 successful or not.
 {
-  "categories": [
+  "categories": {
     {
       "id": 1,
       "type": "Science"
@@ -116,7 +116,7 @@ successful or not.
       "id": 6,
       "type": "Sports"
     }
-  ],
+  },
   "success": true
 }
 
